@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: black; */
+
+}
+
+.profile-img {
+  border-radius: 10px;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #ff0000, #006aff, #eaff00ec);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* #home {
+  background-image: url(./assets/programming-simplicity-blue-code-wallpaper-d990581d61ca5dcb9687b8cf5051261d.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+} */
+
